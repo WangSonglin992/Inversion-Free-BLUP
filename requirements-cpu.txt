@@ -1,0 +1,15 @@
+# IF-BLUP compiled distribution: requires CPython 3.13.x on Linux x86_64
+# (the bundled binary extensions are CPython 3.13 ABI, GLIBC >= 2.28).
+# HPC4-validated numerical baseline: NumPy 2.3.x / SciPy 1.16.x.
+numpy>=2.0,<3
+scipy>=1.15,<1.17
+pandas>=2.2,<3.1
+psutil>=5.9
+numba>=0.60
+tqdm>=4.65
+threadpoolctl>=3.2
+pysnptools>=0.5
+
+
+# Optional sparse Cholesky backend:
+# scikit-sparse

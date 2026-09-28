@@ -1,0 +1,3 @@
+# GPU support: CPU requirements plus a CuPy build matching your CUDA runtime.
+-r requirements-cpu.txt
+
