@@ -1,6 +1,6 @@
 # IF-BLUP compiled distribution: requires CPython 3.13.x on Linux x86_64
 # (the bundled binary extensions are CPython 3.13 ABI, GLIBC >= 2.28).
-# HPC4-validated numerical baseline: NumPy 2.3.x / SciPy 1.16.x.
+# Cluster-validated numerical baseline: NumPy 2.3.x / SciPy 1.16.x.
 numpy>=2.0,<3
 scipy>=1.15,<1.17
 pandas>=2.2,<3.1
