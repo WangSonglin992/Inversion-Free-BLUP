@@ -67,9 +67,10 @@ python ifblup.py --makeG --bfile /path/to/genotype-prefix --out /path/to/G.csv
 
 `config.ini` at the repository root is a minimal single-trait template wired to
 the example data in `Data/`; `examples/` documents the single-trait and
-multi-trait parameter cards. Real evaluations must use your own pedigree,
-phenotype and (optionally) PLINK binary files that satisfy the column contract
-described in the cards.
+multi-trait parameter cards. **Every section and option of the parameter card
+is described in [PARAMETER_CARD.md](PARAMETER_CARD.md).** Real evaluations must
+use your own pedigree, phenotype and (optionally) PLINK binary files that
+satisfy the column contract described in the cards.
 
 ## Repository layout
 
@@ -78,6 +79,7 @@ described in the cards.
 | `ifblup.py` | Python CLI entry point (implementation ships compiled) |
 | `core/`, `mme/`, `reporting/`, `utils/` | Precompiled binary extensions (CPython 3.13 ABI) |
 | `config.ini`, `examples/` | Parameter-card template and documented samples |
+| `PARAMETER_CARD.md` | Full parameter-card reference (all sections and options) |
 | `requirements-cpu.txt`, `requirements-gpu.txt` | Runtime dependencies |
 | `Data/` | Minimal example data referenced by `config.ini` |
 | `scripts_public/` | Public helper scripts |
