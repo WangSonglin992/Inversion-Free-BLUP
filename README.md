@@ -20,7 +20,7 @@ Users install the runtime dependencies themselves; nothing needs to be
 compiled.
 
 ```bash
-git clone https://github.com/DeepBLUP-Lab/Inversion-Free-BLUP.git
+git clone https://github.com/WangSonglin992/Inversion-Free-BLUP.git
 cd Inversion-Free-BLUP
 python3.13 -m venv .venv
 source .venv/bin/activate
